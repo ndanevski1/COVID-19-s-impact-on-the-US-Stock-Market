@@ -1,0 +1,615 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 1.0 -Z 3.0 -O 1 -E 1 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     resulting - for Weka - with converter and categorical-weka.filters.unsupervised.attribute.Remove-R1,4
+Instances:    360
+Attributes:   7
+              Sector
+              Full Time Employees
+              Enterprise Value
+              Profit Margins
+              Market Cap
+              Ask Size
+              Percentage Increase/Decrease
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LogitBoost: Base classifiers and their weights: 
+
+Iteration 1
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 1.3813752832E10 : -0.4927616926503334
+Market Cap > 1.3813752832E10 : 1.8021058315334806
+Market Cap is missing : 1.0527272727272703
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 3.5719446528E10 : 1.549401197604795
+Market Cap > 3.5719446528E10 : -0.12862796833773688
+Market Cap is missing : 1.088884866039097
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 4.62552448E9 : 1.5915697674418618
+Market Cap > 4.62552448E9 : -0.8624620060790222
+Market Cap is missing : -0.49827437446073886
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 425350.0 : -0.9974862888482671
+Full Time Employees > 425350.0 : 2.0192307692308478
+Full Time Employees is missing : -0.9620596205962094
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= -0.5619000000000001 : 0.6818181818181819
+Profit Margins > -0.5619000000000001 : -1.230140186915899
+Profit Margins is missing : -1.2106845513413618
+
+
+Iteration 2
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Sector = Consumer Discretionary : -0.8690157367316584
+Sector != Consumer Discretionary : 0.3128636501826902
+Sector is missing : 0.14870250356594272
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 17931.5 : -0.16579185296667315
+Full Time Employees > 17931.5 : 0.5526092265914471
+Full Time Employees is missing : 0.23034876179918523
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Sector = Energy : 1.929382123261638
+Sector != Energy : -0.23151792276931965
+Sector is missing : -0.001234930642886678
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 8823.0 : 0.5284770219093202
+Full Time Employees > 8823.0 : -0.7191721036742685
+Full Time Employees is missing : -0.37102500073822875
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 4.404081664E9 : 0.05272606913865592
+Market Cap > 4.404081664E9 : -1.0655319680562532
+Market Cap is missing : -0.9371817531472394
+
+
+Iteration 3
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.023440000500000002 : -1.2235793287044723
+Profit Margins > 0.023440000500000002 : 0.16064228307579448
+Profit Margins is missing : 0.04842284625574425
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Sector = Consumer Staples : -1.1515984987620074
+Sector != Consumer Staples : 0.13539594612875633
+Sector is missing : 0.04586750894739671
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.051465 : 0.8340180674541835
+Profit Margins > 0.051465 : -0.24659119151991454
+Profit Margins is missing : 0.09855792636875606
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 2.511491072E10 : -0.7400425898843017
+Market Cap > 2.511491072E10 : 0.6300490099936031
+Market Cap is missing : -0.14358802757910982
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= -0.5619000000000001 : 1.8761255946200215
+Profit Margins > -0.5619000000000001 : -0.8803189927333684
+Profit Margins is missing : -0.7517636202765069
+
+
+Iteration 4
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Enterprise Value <= 1.60177938432E11 : -0.08746115480619408
+Enterprise Value > 1.60177938432E11 : 1.0746785398597014
+Enterprise Value is missing : 0.020400045106439273
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Enterprise Value <= 1.45585995776E11 : 0.10692317158061224
+Enterprise Value > 1.45585995776E11 : -1.0370899417958241
+Enterprise Value is missing : 0.031246348740090038
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 16480.0 : -0.4982454834655399
+Full Time Employees > 16480.0 : 0.3874259176641818
+Full Time Employees is missing : 0.006621452407913313
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 1631.0 : 1.4822864586356364
+Full Time Employees > 1631.0 : -0.25778212298093484
+Full Time Employees is missing : -0.06510788661210531
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 4.404081664E9 : 0.7969333094337011
+Market Cap > 4.404081664E9 : -1.0341023132341398
+Market Cap is missing : -0.5301231207120483
+
+
+Iteration 5
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Enterprise Value <= 6.498574848E9 : -1.6016099799435037
+Enterprise Value > 6.498574848E9 : 0.07772284234639257
+Enterprise Value is missing : 0.02537907888555637
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 192500.0 : -0.09560840871353256
+Full Time Employees > 192500.0 : 1.5937915585553963
+Full Time Employees is missing : -0.02745627410494207
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 1.3411820032E10 : 0.4558680040593234
+Market Cap > 1.3411820032E10 : -0.5607930486534128
+Market Cap is missing : 0.055100299820757766
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Enterprise Value <= 4.43392E10 : -0.48357536301920007
+Enterprise Value > 4.43392E10 : 0.5075703484746591
+Enterprise Value is missing : -0.001167528668082608
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Ask Size <= 3600.0 : -0.7353751360930871
+Ask Size > 3600.0 : 1.9547060962661427
+Ask Size is missing : -0.38920714583223265
+
+
+Iteration 6
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Sector = Energy : -1.7906358159664553
+Sector != Energy : 0.03228314928759196
+Sector is missing : -0.01947316176942529
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Ask Size <= 39750.0 : 0.02437455046420062
+Ask Size > 39750.0 : 2.0151162856426454
+Ask Size is missing : 0.044119226210889755
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 51805.5 : -0.3176033242267199
+Full Time Employees > 51805.5 : 0.6786817772233205
+Full Time Employees is missing : -0.05476999747053924
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 40150.0 : 0.2244896228960322
+Full Time Employees > 40150.0 : -0.637102028071231
+Full Time Employees is missing : 0.0010577016166307405
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= -0.5619000000000001 : 2.0093774790489594
+Profit Margins > -0.5619000000000001 : -0.47266590592092045
+Profit Margins is missing : -0.1129212741742741
+
+
+Iteration 7
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 7600.0 : 0.6802812702314801
+Full Time Employees > 7600.0 : -0.1344887908002754
+Full Time Employees is missing : 0.008277137324718596
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 17931.5 : -0.25287692400407624
+Full Time Employees > 17931.5 : 0.20558362147906495
+Full Time Employees is missing : 9.204085378604209E-4
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.148609995 : -0.22166137632029376
+Profit Margins > 0.148609995 : 0.7186967328938595
+Profit Margins is missing : -0.003213024150995987
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 425350.0 : -0.0976046213957284
+Full Time Employees > 425350.0 : 2.1205225954100437
+Full Time Employees is missing : -0.0072508678524538205
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 2.38835072E9 : 1.8143609714800695
+Market Cap > 2.38835072E9 : -0.6865942326174366
+Market Cap is missing : -0.1663337051903342
+
+
+Iteration 8
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.07627 : 0.6499086336190069
+Profit Margins > 0.07627 : -0.18985377446257093
+Profit Margins is missing : 0.012680029916397046
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.1837 : -0.17633749891263506
+Profit Margins > 0.1837 : 0.5206649173102784
+Profit Margins is missing : -0.008006472442473222
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 2.6737224704E10 : 0.1897806983362227
+Market Cap > 2.6737224704E10 : -0.7147308403427322
+Market Cap is missing : 9.852966451005618E-4
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Sector = Financials : -1.0723299968969844
+Sector != Financials : 0.12948221966055948
+Sector is missing : 0.007319343610163044
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.14352500499999998 : -0.5577756364059426
+Profit Margins > 0.14352500499999998 : 0.9600736936628799
+Profit Margins is missing : -0.18228964180239232
+
+
+Iteration 9
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 6.13235328E9 : -1.2093583506904995
+Market Cap > 6.13235328E9 : 0.07605829856412279
+Market Cap is missing : -0.001562712633636561
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 2800.0 : 0.8801538764249138
+Full Time Employees > 2800.0 : -0.038094017846586066
+Full Time Employees is missing : 0.02553836215106177
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 6155.0 : -0.7778239579337709
+Full Time Employees > 6155.0 : 0.13528216921318034
+Full Time Employees is missing : -0.04383842369972372
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Full Time Employees <= 8823.0 : 0.3891372325922541
+Full Time Employees > 8823.0 : -0.3439800103386478
+Full Time Employees is missing : -0.016167352133442458
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Enterprise Value <= 1.5116446208E10 : 0.44930019619979444
+Enterprise Value > 1.5116446208E10 : -1.0745365990618179
+Enterprise Value is missing : -0.10269686487965644
+
+
+Iteration 10
+	Class 1 (Percentage Increase/Decrease=(-20.0, 5.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.453515 : -0.0473646378552948
+Profit Margins > 0.453515 : 1.5073568018899999
+Profit Margins is missing : -0.01234079316109693
+
+
+	Class 2 (Percentage Increase/Decrease=(-45.0, -20.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 1.05891934208E11 : 0.060309000246260916
+Market Cap > 1.05891934208E11 : -0.793945417232477
+Market Cap is missing : 0.014258449565150086
+
+
+	Class 3 (Percentage Increase/Decrease=(-70.0, -45.0])
+
+Decision Stump
+
+Classifications
+
+Profit Margins <= 0.24405 : -0.15386460298367324
+Profit Margins > 0.24405 : 0.8482908178225825
+Profit Margins is missing : -0.011809301243174038
+
+
+	Class 4 (Percentage Increase/Decrease=(5.0, 30.0])
+
+Decision Stump
+
+Classifications
+
+Market Cap <= 1.8128959488E10 : -0.5381909196501282
+Market Cap > 1.8128959488E10 : 0.29044801485154204
+Market Cap is missing : 0.029403263126308136
+
+
+	Class 5 (Percentage Increase/Decrease=(-95.0, -70.0])
+
+Decision Stump
+
+Classifications
+
+Enterprise Value <= 9.181362176E9 : -1.0566051596606496
+Enterprise Value > 9.181362176E9 : 0.3210533032012683
+Enterprise Value is missing : -0.224811683983063
+
+Number of performed iterations: 10
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         237               66.0167 %
+Incorrectly Classified Instances       122               33.9833 %
+Kappa statistic                          0.4414
+Mean absolute error                      0.1866
+Root mean squared error                  0.3161
+Relative absolute error                 73.3124 %
+Root relative squared error             88.7838 %
+Total Number of Instances              359     
+Ignored Class Unknown Instances                  1     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.772    0.252    0.685      0.772    0.726      0.513    0.829     0.740     (-20.0, 5.0]
+                 0.691    0.266    0.656      0.691    0.673      0.423    0.740     0.619     (-45.0, -20.0]
+                 0.415    0.028    0.654      0.415    0.507      0.474    0.838     0.490     (-70.0, -45.0]
+                 0.000    0.012    0.000      0.000    0.000      -0.022   0.630     0.100     (5.0, 30.0]
+                 0.000    0.003    0.000      0.000    0.000      -0.004   0.466     0.015     (-95.0, -70.0]
+Weighted Avg.    0.660    0.221    0.637      0.660    0.644      0.445    0.782     0.629     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 115  32   0   2   0 |   a = (-20.0, 5.0]
+  39 105   6   2   0 |   b = (-45.0, -20.0]
+   2  21  17   0   1 |   c = (-70.0, -45.0]
+  12   1   2   0   0 |   d = (5.0, 30.0]
+   0   1   1   0   0 |   e = (-95.0, -70.0]
+

@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     resulting - for Weka - with converter and categorical-weka.filters.unsupervised.attribute.Remove-R1,4
+Instances:    360
+Attributes:   7
+              Sector
+              Full Time Employees
+              Enterprise Value
+              Profit Margins
+              Market Cap
+              Ask Size
+              Percentage Increase/Decrease
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=7 #classindex=6
+Network structure (nodes followed by parents)
+Sector(11): Percentage Increase/Decrease 
+Full Time Employees(1): Percentage Increase/Decrease 
+Enterprise Value(2): Percentage Increase/Decrease 
+Profit Margins(2): Percentage Increase/Decrease 
+Market Cap(3): Percentage Increase/Decrease 
+Ask Size(1): Percentage Increase/Decrease 
+Percentage Increase/Decrease(5): 
+LogScore Bayes: -1789.715490663547
+LogScore BDeu: -2036.9415548682687
+LogScore MDL: -2008.2165360134102
+LogScore ENTROPY: -1790.5336076393442
+LogScore AIC: -1864.533607639344
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         230               64.0669 %
+Incorrectly Classified Instances       129               35.9331 %
+Kappa statistic                          0.4177
+Mean absolute error                      0.1767
+Root mean squared error                  0.3216
+Relative absolute error                 69.4125 %
+Root relative squared error             90.3331 %
+Total Number of Instances              359     
+Ignored Class Unknown Instances                  1     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.745    0.233    0.694      0.745    0.718      0.507    0.820     0.686     (-20.0, 5.0]
+                 0.664    0.275    0.639      0.664    0.652      0.387    0.735     0.610     (-45.0, -20.0]
+                 0.415    0.053    0.500      0.415    0.453      0.392    0.888     0.463     (-70.0, -45.0]
+                 0.067    0.017    0.143      0.067    0.091      0.071    0.652     0.102     (5.0, 30.0]
+                 0.000    0.000    ?          0.000    ?          ?        0.777     0.018     (-95.0, -70.0]
+Weighted Avg.    0.641    0.220    ?          0.641    ?          ?        0.784     0.600     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 111  36   0   2   0 |   a = (-20.0, 5.0]
+  36 101  13   2   0 |   b = (-45.0, -20.0]
+   1  21  17   2   0 |   c = (-70.0, -45.0]
+  12   0   2   1   0 |   d = (5.0, 30.0]
+   0   0   2   0   0 |   e = (-95.0, -70.0]
+

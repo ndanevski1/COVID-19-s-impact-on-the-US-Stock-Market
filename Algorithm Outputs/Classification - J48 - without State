@@ -1,0 +1,136 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     resulting - for Weka - with converter and categorical-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    360
+Attributes:   7
+              Sector
+              Full Time Employees
+              Enterprise Value
+              Profit Margins
+              Market Cap
+              Ask Size
+              Percentage Increase/Decrease
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Market Cap <= 13603335168
+|   Market Cap <= 4581031424
+|   |   Sector = Industrials
+|   |   |   Full Time Employees <= 20500: (-45.0, -20.0] (2.0)
+|   |   |   Full Time Employees > 20500: (-70.0, -45.0] (3.0)
+|   |   Sector = Health Care: (-70.0, -45.0] (0.0)
+|   |   Sector = Information Technology: (-70.0, -45.0] (3.0)
+|   |   Sector = Consumer Discretionary
+|   |   |   Profit Margins <= 0.0516
+|   |   |   |   Profit Margins <= -0.0066: (-45.0, -20.0] (3.0/1.0)
+|   |   |   |   Profit Margins > -0.0066: (-70.0, -45.0] (6.0)
+|   |   |   Profit Margins > 0.0516: (-45.0, -20.0] (6.0/1.0)
+|   |   Sector = Utilities: (-70.0, -45.0] (0.0)
+|   |   Sector = Financials
+|   |   |   Full Time Employees <= 6478: (-45.0, -20.0] (4.0)
+|   |   |   Full Time Employees > 6478: (-70.0, -45.0] (3.0/1.0)
+|   |   Sector = Materials: (-45.0, -20.0] (1.0)
+|   |   Sector = Real Estate: (-70.0, -45.0] (3.0/1.0)
+|   |   Sector = Consumer Staples: (-70.0, -45.0] (1.0)
+|   |   Sector = Energy: (-70.0, -45.0] (7.0/2.0)
+|   |   Sector = Telecommunication Services: (-70.0, -45.0] (0.0)
+|   Market Cap > 4581031424: (-45.0, -20.0] (97.0/29.0)
+Market Cap > 13603335168
+|   Sector = Industrials
+|   |   Profit Margins <= 0.01357: (-45.0, -20.0] (2.0/1.0)
+|   |   Profit Margins > 0.01357: (-20.0, 5.0] (28.0/13.0)
+|   Sector = Health Care
+|   |   Ask Size <= 800
+|   |   |   Full Time Employees <= 33000: (-20.0, 5.0] (5.0)
+|   |   |   Full Time Employees > 33000
+|   |   |   |   Market Cap <= 35744018432: (-45.0, -20.0] (3.0)
+|   |   |   |   Market Cap > 35744018432: (-20.0, 5.0] (5.0/1.0)
+|   |   Ask Size > 800
+|   |   |   Ask Size <= 900
+|   |   |   |   Profit Margins <= 0.21063: (-20.0, 5.0] (5.0)
+|   |   |   |   Profit Margins > 0.21063: (5.0, 30.0] (3.0)
+|   |   |   Ask Size > 900: (-20.0, 5.0] (12.0/2.0)
+|   Sector = Information Technology
+|   |   Full Time Employees <= 8800
+|   |   |   Full Time Employees <= 8234: (-20.0, 5.0] (5.0)
+|   |   |   Full Time Employees > 8234: (5.0, 30.0] (2.0)
+|   |   Full Time Employees > 8800
+|   |   |   Market Cap <= 22112215040: (-45.0, -20.0] (4.0)
+|   |   |   Market Cap > 22112215040: (-20.0, 5.0] (34.0/6.0)
+|   Sector = Consumer Discretionary
+|   |   Enterprise Value <= 120195899392: (-45.0, -20.0] (19.0/4.0)
+|   |   Enterprise Value > 120195899392: (-20.0, 5.0] (6.0/2.0)
+|   Sector = Utilities
+|   |   Profit Margins <= 0.09916: (-45.0, -20.0] (4.0/1.0)
+|   |   Profit Margins > 0.09916: (-20.0, 5.0] (10.0/1.0)
+|   Sector = Financials
+|   |   Ask Size <= 1100
+|   |   |   Enterprise Value <= 17234690048: (-45.0, -20.0] (3.0)
+|   |   |   Enterprise Value > 17234690048
+|   |   |   |   Enterprise Value <= 78610792448: (-20.0, 5.0] (12.0/1.0)
+|   |   |   |   Enterprise Value > 78610792448: (-45.0, -20.0] (2.0)
+|   |   Ask Size > 1100: (-45.0, -20.0] (3.0)
+|   Sector = Materials
+|   |   Profit Margins <= 0.08455: (-45.0, -20.0] (3.0/1.0)
+|   |   Profit Margins > 0.08455: (-20.0, 5.0] (5.0/1.0)
+|   Sector = Real Estate
+|   |   Enterprise Value <= 36271960064: (-45.0, -20.0] (4.0/1.0)
+|   |   Enterprise Value > 36271960064
+|   |   |   Enterprise Value <= 77398876160: (5.0, 30.0] (4.0/1.0)
+|   |   |   Enterprise Value > 77398876160: (-20.0, 5.0] (3.0)
+|   Sector = Consumer Staples
+|   |   Enterprise Value <= 51342196736
+|   |   |   Full Time Employees <= 39000: (-20.0, 5.0] (9.0/1.0)
+|   |   |   Full Time Employees > 39000
+|   |   |   |   Enterprise Value <= 40351039488: (-45.0, -20.0] (2.0)
+|   |   |   |   Enterprise Value > 40351039488: (5.0, 30.0] (2.0)
+|   |   Enterprise Value > 51342196736: (-20.0, 5.0] (13.0)
+|   Sector = Energy
+|   |   Ask Size <= 800: (-45.0, -20.0] (4.0/1.0)
+|   |   Ask Size > 800: (-70.0, -45.0] (3.0)
+|   Sector = Telecommunication Services: (-20.0, 5.0] (1.0)
+
+Number of Leaves  : 	48
+
+Size of the tree : 	77
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         217               60.4457 %
+Incorrectly Classified Instances       142               39.5543 %
+Kappa statistic                          0.352 
+Mean absolute error                      0.1882
+Root mean squared error                  0.3526
+Relative absolute error                 73.9376 %
+Root relative squared error             99.0272 %
+Total Number of Instances              359     
+Ignored Class Unknown Instances                  1     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.664    0.257    0.647      0.664    0.656      0.406    0.709     0.605     (-20.0, 5.0]
+                 0.671    0.343    0.590      0.671    0.628      0.324    0.685     0.533     (-45.0, -20.0]
+                 0.366    0.028    0.625      0.366    0.462      0.430    0.821     0.488     (-70.0, -45.0]
+                 0.067    0.023    0.111      0.067    0.083      0.056    0.472     0.051     (5.0, 30.0]
+                 0.000    0.000    ?          0.000    ?          ?        0.472     0.006     (-95.0, -70.0]
+Weighted Avg.    0.604    0.256    ?          0.604    ?          ?        0.701     0.535     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+  99  44   0   6   0 |   a = (-20.0, 5.0]
+  41 102   7   2   0 |   b = (-45.0, -20.0]
+   2  24  15   0   0 |   c = (-70.0, -45.0]
+  11   2   1   1   0 |   d = (5.0, 30.0]
+   0   1   1   0   0 |   e = (-95.0, -70.0]
+

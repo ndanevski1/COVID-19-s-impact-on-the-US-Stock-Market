@@ -1,0 +1,323 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.02 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a -R -batch-size 120
+Relation:     resulting - for Weka - with converter and categorical-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3
+Instances:    360
+Attributes:   7
+              Sector
+              Full Time Employees
+              Enterprise Value
+              Profit Margins
+              Market Cap
+              Ask Size
+              Percentage Increase/Decrease
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.5583217363714376
+    Node 5    2.0144999734426494
+    Node 6    0.975724804270891
+    Node 7    0.5442609515958782
+    Node 8    -2.7306048021428144
+    Node 9    2.728101093855281
+    Node 10    0.5185929613537641
+    Node 11    -0.6332958356320196
+    Node 12    -1.3086843481352881
+    Node 13    -1.7491103852307455
+    Node 14    0.6802152674867123
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.0967601429716094
+    Node 5    -1.7701695959103099
+    Node 6    0.08625044708448584
+    Node 7    0.026384768034110707
+    Node 8    0.8080897266644289
+    Node 9    -1.2984894179241728
+    Node 10    -1.5694875304572085
+    Node 11    -0.13038545672379398
+    Node 12    0.002100633008519379
+    Node 13    2.609040988234569
+    Node 14    1.1562022140848236
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.03371971706816853
+    Node 5    -1.4828882334950495
+    Node 6    -1.1774460361349308
+    Node 7    -0.8122970844636012
+    Node 8    1.2866053397571553
+    Node 9    -2.1445808269969495
+    Node 10    -0.43398152957291547
+    Node 11    -0.030536457120773308
+    Node 12    0.36895449345361625
+    Node 13    0.2644154665214053
+    Node 14    -0.8520769336237901
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.6719624656095234
+    Node 5    0.15958116409898415
+    Node 6    -0.33914275860012355
+    Node 7    -0.5344431126636727
+    Node 8    -0.6917968231608989
+    Node 9    -0.03252444681641639
+    Node 10    0.015033967105776952
+    Node 11    -0.5013643515879515
+    Node 12    -0.580731946819459
+    Node 13    -1.2692885165608194
+    Node 14    -0.8334007880549439
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.1677682358777413
+    Node 5    -0.7349801642829543
+    Node 6    -0.7078277204342858
+    Node 7    -0.767505924077244
+    Node 8    -0.5090279669300856
+    Node 9    -0.6741644576334599
+    Node 10    -0.6752134481296074
+    Node 11    -0.6599343749011272
+    Node 12    -0.6431721345672803
+    Node 13    -0.7219417058155929
+    Node 14    -0.7941686691628527
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.16862879741505216
+    Attrib Sector=Industrials    -0.1995291401607727
+    Attrib Sector=Health Care    0.051231166814058086
+    Attrib Sector=Information Technology    -0.08458634716332765
+    Attrib Sector=Consumer Discretionary    -0.29089778439057856
+    Attrib Sector=Utilities    0.03307487055147061
+    Attrib Sector=Financials    -0.2957025818889076
+    Attrib Sector=Materials    -0.14721413528406255
+    Attrib Sector=Real Estate    -0.20229248388964238
+    Attrib Sector=Consumer Staples    0.24918165160656977
+    Attrib Sector=Energy    -0.5876071936709043
+    Attrib Sector=Telecommunication Services    0.0940289979544549
+    Attrib Full Time Employees    -0.6132368569288436
+    Attrib Enterprise Value    2.4077895547918917
+    Attrib Profit Margins    1.3839152969666482
+    Attrib Market Cap    2.2053381444105797
+    Attrib Ask Size    -0.6831125760241791
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.037676155519383886
+    Attrib Sector=Industrials    0.04001537800610659
+    Attrib Sector=Health Care    0.243012132846069
+    Attrib Sector=Information Technology    0.11446768091130885
+    Attrib Sector=Consumer Discretionary    -0.18731874869368972
+    Attrib Sector=Utilities    0.34611324311589076
+    Attrib Sector=Financials    -0.037779895451736094
+    Attrib Sector=Materials    0.36206103766719583
+    Attrib Sector=Real Estate    0.06780037805337166
+    Attrib Sector=Consumer Staples    -0.003911380572064765
+    Attrib Sector=Energy    -1.1906094569109866
+    Attrib Sector=Telecommunication Services    0.06014638990813986
+    Attrib Full Time Employees    -0.20810625499491975
+    Attrib Enterprise Value    0.6494219177400913
+    Attrib Profit Margins    0.6820011401539159
+    Attrib Market Cap    0.6748707262476575
+    Attrib Ask Size    0.04755072770094588
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.056630094437921455
+    Attrib Sector=Industrials    0.06344810674740672
+    Attrib Sector=Health Care    0.21179794183945838
+    Attrib Sector=Information Technology    0.23391272322070644
+    Attrib Sector=Consumer Discretionary    -0.1221718263500032
+    Attrib Sector=Utilities    0.34143401897201286
+    Attrib Sector=Financials    0.03658373046665963
+    Attrib Sector=Materials    0.24188436147828415
+    Attrib Sector=Real Estate    0.03728654252349716
+    Attrib Sector=Consumer Staples    -0.006498313993751253
+    Attrib Sector=Energy    -0.8740555604890375
+    Attrib Sector=Telecommunication Services    0.05443557403909305
+    Attrib Full Time Employees    -0.1454604056219939
+    Attrib Enterprise Value    0.4016463043133826
+    Attrib Profit Margins    0.3286441148030456
+    Attrib Market Cap    0.3762357876520616
+    Attrib Ask Size    0.026349911508808336
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.15450542177446247
+    Attrib Sector=Industrials    -0.07509058513219118
+    Attrib Sector=Health Care    -0.041484254178518754
+    Attrib Sector=Information Technology    0.05586304990455716
+    Attrib Sector=Consumer Discretionary    0.25707197225163697
+    Attrib Sector=Utilities    0.04786211078928095
+    Attrib Sector=Financials    0.2911892924318379
+    Attrib Sector=Materials    0.16539711101307447
+    Attrib Sector=Real Estate    0.33547784085193355
+    Attrib Sector=Consumer Staples    -0.12919565681064818
+    Attrib Sector=Energy    0.8718496340442321
+    Attrib Sector=Telecommunication Services    -0.10950588680209915
+    Attrib Full Time Employees    0.6787482115977382
+    Attrib Enterprise Value    -2.2564712085486547
+    Attrib Profit Margins    -1.5787673757246947
+    Attrib Market Cap    -2.1904346297799764
+    Attrib Ask Size    0.6075136719140545
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.1538536509703823
+    Attrib Sector=Industrials    -0.006564561730436052
+    Attrib Sector=Health Care    0.13415605082776602
+    Attrib Sector=Information Technology    -0.18949421266519728
+    Attrib Sector=Consumer Discretionary    -0.26395907945226227
+    Attrib Sector=Utilities    0.21052638429419926
+    Attrib Sector=Financials    -0.3943385987936125
+    Attrib Sector=Materials    0.278895505471499
+    Attrib Sector=Real Estate    -0.3459891195497949
+    Attrib Sector=Consumer Staples    0.03893624155670437
+    Attrib Sector=Energy    -1.3614471159842403
+    Attrib Sector=Telecommunication Services    0.06635937605592479
+    Attrib Full Time Employees    -0.7811839077507823
+    Attrib Enterprise Value    2.5767282528306654
+    Attrib Profit Margins    1.8384379263362567
+    Attrib Market Cap    2.429613579466589
+    Attrib Ask Size    -0.6483795298333909
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.07648532457206308
+    Attrib Sector=Industrials    -0.11894075987387125
+    Attrib Sector=Health Care    -0.061042384941149185
+    Attrib Sector=Information Technology    -0.07463404874476977
+    Attrib Sector=Consumer Discretionary    -0.43987449517119614
+    Attrib Sector=Utilities    -0.1664765198095818
+    Attrib Sector=Financials    -0.2735303749803963
+    Attrib Sector=Materials    -0.1696704690168556
+    Attrib Sector=Real Estate    -0.2771468522978359
+    Attrib Sector=Consumer Staples    0.2669877463646601
+    Attrib Sector=Energy    0.5830100978242438
+    Attrib Sector=Telecommunication Services    0.012252583730750128
+    Attrib Full Time Employees    -0.2115038905120476
+    Attrib Enterprise Value    1.2153183527973268
+    Attrib Profit Margins    0.6260831164661594
+    Attrib Market Cap    1.1325346698307281
+    Attrib Ask Size    -0.38410289696832245
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.06913524330485497
+    Attrib Sector=Industrials    -0.03767321883835739
+    Attrib Sector=Health Care    0.017281169327760075
+    Attrib Sector=Information Technology    -0.016861528471352055
+    Attrib Sector=Consumer Discretionary    -0.022513015337556348
+    Attrib Sector=Utilities    0.12277925862393504
+    Attrib Sector=Financials    -0.006934581264787219
+    Attrib Sector=Materials    0.04935945039458193
+    Attrib Sector=Real Estate    0.032384769036584896
+    Attrib Sector=Consumer Staples    -0.0213343266267431
+    Attrib Sector=Energy    0.03352760943316216
+    Attrib Sector=Telecommunication Services    0.03789800600233666
+    Attrib Full Time Employees    0.12471173783304203
+    Attrib Enterprise Value    -0.3297182310802715
+    Attrib Profit Margins    -0.26377721347224714
+    Attrib Market Cap    -0.3406599443051523
+    Attrib Ask Size    0.10657873791039166
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.06750755822430722
+    Attrib Sector=Industrials    -0.0342027823971333
+    Attrib Sector=Health Care    -0.03110167701342425
+    Attrib Sector=Information Technology    -0.12506025791583378
+    Attrib Sector=Consumer Discretionary    0.16131414400223404
+    Attrib Sector=Utilities    0.031739612299019136
+    Attrib Sector=Financials    0.1059618403034438
+    Attrib Sector=Materials    0.054539203247038134
+    Attrib Sector=Real Estate    0.12899783183557958
+    Attrib Sector=Consumer Staples    -0.08862649790464622
+    Attrib Sector=Energy    0.4235778474130149
+    Attrib Sector=Telecommunication Services    0.04261319630796789
+    Attrib Full Time Employees    0.2705066999805124
+    Attrib Enterprise Value    -0.8828162583975881
+    Attrib Profit Margins    -0.6631676952022381
+    Attrib Market Cap    -0.8495354009420939
+    Attrib Ask Size    0.222641705257875
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.19044287282785416
+    Attrib Sector=Industrials    0.5671184610177215
+    Attrib Sector=Health Care    0.2011495348342869
+    Attrib Sector=Information Technology    0.16537762077443507
+    Attrib Sector=Consumer Discretionary    0.7837141446754212
+    Attrib Sector=Utilities    0.4385738178720109
+    Attrib Sector=Financials    0.3167837399799599
+    Attrib Sector=Materials    0.565044630809649
+    Attrib Sector=Real Estate    0.3460154342836981
+    Attrib Sector=Consumer Staples    -0.5276702504180657
+    Attrib Sector=Energy    -1.1717432442019693
+    Attrib Sector=Telecommunication Services    -0.09327585400511498
+    Attrib Full Time Employees    0.45219816121850465
+    Attrib Enterprise Value    -2.519971374412305
+    Attrib Profit Margins    -1.5891233908588722
+    Attrib Market Cap    -2.2351510055035466
+    Attrib Ask Size    0.7370250348877162
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    0.022111090708976662
+    Attrib Sector=Industrials    0.14173786401348357
+    Attrib Sector=Health Care    0.2247179065003665
+    Attrib Sector=Information Technology    0.2734506958983973
+    Attrib Sector=Consumer Discretionary    0.053593198694008574
+    Attrib Sector=Utilities    0.4737615610148773
+    Attrib Sector=Financials    0.35087099453496323
+    Attrib Sector=Materials    0.37386885844805534
+    Attrib Sector=Real Estate    0.13716403344674163
+    Attrib Sector=Consumer Staples    -0.44546604603129464
+    Attrib Sector=Energy    -1.5721151450189834
+    Attrib Sector=Telecommunication Services    0.07515777357612474
+    Attrib Full Time Employees    -0.2521074701994459
+    Attrib Enterprise Value    -0.20057253281968748
+    Attrib Profit Margins    0.35129610027552804
+    Attrib Market Cap    -0.1648754212278188
+    Attrib Ask Size    0.256564471814227
+Class (-20.0, 5.0]
+    Input
+    Node 0
+Class (-45.0, -20.0]
+    Input
+    Node 1
+Class (-70.0, -45.0]
+    Input
+    Node 2
+Class (5.0, 30.0]
+    Input
+    Node 3
+Class (-95.0, -70.0]
+    Input
+    Node 4
+
+
+Time taken to build model: 0.59 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         220               61.2813 %
+Incorrectly Classified Instances       139               38.7187 %
+Kappa statistic                          0.3531
+Mean absolute error                      0.2105
+Root mean squared error                  0.3246
+Relative absolute error                 82.7298 %
+Root relative squared error             91.1667 %
+Total Number of Instances              359     
+Ignored Class Unknown Instances                  1     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.732    0.271    0.657      0.732    0.692      0.455    0.802     0.717     (-20.0, 5.0]
+                 0.658    0.348    0.581      0.658    0.617      0.307    0.706     0.566     (-45.0, -20.0]
+                 0.268    0.031    0.524      0.268    0.355      0.321    0.796     0.292     (-70.0, -45.0]
+                 0.000    0.000    ?          0.000    ?          ?        0.647     0.066     (5.0, 30.0]
+                 0.000    0.000    ?          0.000    ?          ?        0.744     0.032     (-95.0, -70.0]
+Weighted Avg.    0.613    0.264    ?          0.613    ?          ?        0.754     0.573     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 109  39   1   0   0 |   a = (-20.0, 5.0]
+  46 100   6   0   0 |   b = (-45.0, -20.0]
+   1  29  11   0   0 |   c = (-70.0, -45.0]
+  10   3   2   0   0 |   d = (5.0, 30.0]
+   0   1   1   0   0 |   e = (-95.0, -70.0]
+
